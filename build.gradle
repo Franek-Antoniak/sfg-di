@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'frank.antoniak'
+group = 'franek.spring.learning'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
