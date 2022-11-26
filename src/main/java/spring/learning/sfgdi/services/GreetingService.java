@@ -1,4 +1,4 @@
-package franek.spring.learning.sfgdi.services;
+package spring.learning.sfgdi.services;
 
 
 public interface GreetingService {

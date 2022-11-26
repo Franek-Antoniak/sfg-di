@@ -1,12 +1,12 @@
-package franek.spring.learning.sfgdi;
+package spring.learning.sfgdi;
 
-import franek.spring.learning.sfgdi.controllers.ConstructorInjectedController;
-import franek.spring.learning.sfgdi.controllers.MyController;
-import franek.spring.learning.sfgdi.controllers.PropertyInjectedController;
-import franek.spring.learning.sfgdi.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import spring.learning.sfgdi.controllers.ConstructorInjectedController;
+import spring.learning.sfgdi.controllers.MyController;
+import spring.learning.sfgdi.controllers.PropertyInjectedController;
+import spring.learning.sfgdi.controllers.SetterInjectedController;
 
 @SpringBootApplication
 public class SfgDiApplication {

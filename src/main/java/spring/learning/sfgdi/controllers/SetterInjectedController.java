@@ -1,8 +1,9 @@
-package franek.spring.learning.sfgdi.controllers;
+package spring.learning.sfgdi.controllers;
 
-import franek.spring.learning.sfgdi.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
+import spring.learning.sfgdi.services.GreetingService;
 
 @Controller
 public class SetterInjectedController {
@@ -10,7 +11,7 @@ public class SetterInjectedController {
 	private GreetingService greetingService;
 
 	@Autowired
-	public void setGreetingService(GreetingService greetingService) {
+	public void setGreetingService(@Qualifier("setterInjectedGreetingService") GreetingService greetingService) {
 		this.greetingService = greetingService;
 	}
 

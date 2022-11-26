@@ -1,4 +1,4 @@
-package franek.spring.learning.sfgdi.controllers;
+package spring.learning.sfgdi.controllers;
 
 import org.springframework.stereotype.Controller;
 

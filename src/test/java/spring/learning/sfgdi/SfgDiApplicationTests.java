@@ -1,11 +1,9 @@
-package frank.antoniak.sfgdi;
+package spring.learning.sfgdi;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-@SpringBootConfiguration
 class SfgDiApplicationTests {
 
 	@Test
