@@ -1,8 +1,10 @@
 package franek.spring.learning.sfgdi.controllers;
 
 import franek.spring.learning.sfgdi.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
 
+@Controller
 public class ConstructorInjectedController {
 	private final GreetingService greetingService;
 
