@@ -2,7 +2,7 @@ package spring.learning.sfgdi.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import spring.learning.sfgdi.services.GreetingServiceImpl;
+import spring.learning.sfgdi.services.PrimaryGreetingService;
 
 class PropertyInjectedControllerTest {
 
@@ -12,7 +12,7 @@ class PropertyInjectedControllerTest {
 	void setUp() {
 		controller = new PropertyInjectedController();
 
-		controller.greetingService = new GreetingServiceImpl();
+		controller.greetingService = new PrimaryGreetingService();
 	}
 
 	@Test
