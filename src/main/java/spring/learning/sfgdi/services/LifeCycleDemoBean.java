@@ -19,13 +19,13 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
     }
 
     @Override
-    public void destroy() throws Exception {
+    public void destroy() {
         System.out.println("## The Lifecycle bean has been terminated");
 
     }
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void afterPropertiesSet() {
         System.out.println("## The LifeCycleBean has its properties set!");
 
     }
@@ -38,7 +38,6 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
     @Override
     public void setBeanName(String name) {
         System.out.println("## My Bean Name is: " + name);
-
     }
 
     @Override
